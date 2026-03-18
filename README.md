@@ -25,8 +25,8 @@
 
 ```sh
 # 依存ライブラリの追加
-cargo add <crate_name> -package <package_name>
+cargo add <crate_name> --package <package_name>
 
 # API の実行
-cargo run -package api
+cargo run --package api
 ```
